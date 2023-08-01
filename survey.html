@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to my blog!</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="myBlog.html">My Blog</a></li>
+        <li><a href="survey.html">Survey</a></li>
+      </ul>
+    </nav>
+    <form>
+      <h1>Survey form</h1>
+      <label for="background">Your background: </label>
+      <input type="radio" name="student" id="student" />
+      <label for="student">Student</label>
+      <input type="radio" name="softwaredeveloper" id="softwaredeveloper" />
+      <label for="softwaredeveloper">Software developer</label>
+      <input type="radio" name="other" id="other" />
+      <label for="other">Other</label>
+      <br />
+      <label for="feel">How do you feel about my blog: </label>
+      <select name="feel" id="feel">
+        <option value="">--Please choose your answer--</option>
+      </select>
+      <br />
+      <label for="topic">The topics that you want me to share: </label>
+      <input type="checkbox" name="git" id="git" />
+      <label for="git">Git</label>
+      <input type="checkbox" name="css" id="css" />
+      <label for="css">CSS</label>
+      <input type="checkbox" name="html" id="html" />
+      <label for="html">HTML</label>
+      <input type="checkbox" name="javascript" id="javascript" />
+      <label for="javascript">JavasScript</label>
+      <br />
+      <label for="feedback">Feedback:</label>
+      <br />
+      <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+      <br />
+      <label for="blogId">Your blog id: </label>
+      <input type="text" name="blogId" id="blogId" />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+    <footer>
+      <p>© 2022 Thoughtworks</p>
+    </footer>
+  </body>
+</html>
